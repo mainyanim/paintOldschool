@@ -1,1 +1,44 @@
+canvas{
+    width:500px;
+    height:500px;
+    background-color:white;
+    display:inline-block;
+    vertical-align: top;
+    position:relative;
+    border: 2px solid grey;
+}
 
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    border:0px;
+    height:30px;
+}
+
+li {
+    margin:0;
+    padding:0;
+    border:2px solid #d3d3d3;
+    display:block;
+    float:left;
+    width:30px;
+    height:30px;
+    cursor:pointer;
+}
+li.active {
+    border:2px solid #666;
+}
+a,
+a:hover {
+    margin-top:10px;
+    font-family:Arial,sans-serif;
+    display:block;
+    width:220px;
+    padding:5px 10px;
+    background:#3d6aa2;
+    color:white;
+    text-decoration:none;
+    font-size:2em;
+    text-align:center;
+}
